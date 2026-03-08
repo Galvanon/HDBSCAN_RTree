@@ -418,8 +418,7 @@ SIDX_C_DLL char* SIDX_Version(void);
 
 SIDX_C_DLL char* Error_GetLastErrorMsg(void);
 
-/// New
-
+// New
 SIDX_DLL uint64_t Index_GetReads(IndexH index);
 SIDX_DLL uint64_t Index_GetWrites(IndexH index);
 SIDX_DLL uint32_t Index_GetNumberOfNodes(IndexH index);

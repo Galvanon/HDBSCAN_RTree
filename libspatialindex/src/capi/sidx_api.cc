@@ -4283,6 +4283,7 @@ SIDX_DLL RTError Index_GetNumberOfNodesInLevel(IndexH index, uint32_t level, uin
     }
 }
 
+// New
 SIDX_C_DLL RTError IndexProperty_SetBulkLoadMethod(IndexPropertyH hProp,
                                                     uint32_t value)
 {

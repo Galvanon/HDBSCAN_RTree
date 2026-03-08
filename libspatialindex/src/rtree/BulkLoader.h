@@ -115,7 +115,8 @@ namespace SpatialIndex
 				uint32_t pageSize, // The number of node entries per page.
 				uint32_t numberOfPages // The total number of pages to use.
 			);
-
+			
+			// New
 			void bulkLoadUsingHDBSCAN(
 				RTree* pTree,
 				IDataStream& stream,

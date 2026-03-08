@@ -205,6 +205,7 @@ SpatialIndex::ISpatialIndex* SpatialIndex::RTree::createAndBulkLoadNewRTree(
 
 	SpatialIndex::RTree::BulkLoader bl;
 
+	// New
 	switch (m)
 	{
 	case BLM_STR:
@@ -333,6 +334,7 @@ SpatialIndex::ISpatialIndex* SpatialIndex::RTree::createAndBulkLoadNewRTree(
 
 	SpatialIndex::RTree::BulkLoader bl;
 
+	// New
 	switch (m)
 	{
 	case BLM_STR:

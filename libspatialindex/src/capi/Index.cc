@@ -159,6 +159,7 @@ Index::Index(const Tools::PropertySet& poProperties,
 		m_IdxIdentifier = var.m_val.llVal;
 	}
 
+	// New
 	SpatialIndex::RTree::BulkLoadMethod method = SpatialIndex::RTree::BLM_STR; // default
 
 	Tools::Variant blm = m_properties.getProperty("BulkLoadMethod");

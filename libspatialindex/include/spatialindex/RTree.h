@@ -41,7 +41,7 @@ namespace SpatialIndex
 		enum BulkLoadMethod
 		{
 			BLM_STR = 0x0,
-			BLM_HDBSCAN = 0x1 // added this line
+			BLM_HDBSCAN = 0x1 // New
 		};
 
 		enum PersistenObjectIdentifier
